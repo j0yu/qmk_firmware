@@ -6,9 +6,11 @@
     },
     "diode_direction": "COL2ROW",
     "encoder": {
-        "rotary": [
-            {"pin_a": "C6", "pin_b": "B5"}
-        ]
+        "left": {
+            "rotary": [
+                {"pin_a": "C6", "pin_b": "B5"}
+            ]
+        }
     },
     "split": {
         "serial": {
